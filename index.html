@@ -9,6 +9,8 @@
     <title>Content Creation Guide: How to Become a Successful Content Creator</title>
 
     <link rel="stylesheet" href="css/styles.css">
+    
+    <script src="script.js"></script>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3NJQYY2FJW"></script>
 <script>
@@ -145,6 +147,12 @@
             </li>
         </ul>
         <p>Learn more about <a href="/monetization-strategies">monetizing your content</a>.</p>
+        <a href="https://www.instagram.com/the_digital_narrative?igsh=bGJvZDJ4aG5tYWZm&utm_source=qr" target="_blank">
+            Visit My Instagram
+        </a>
+        <a href="https://www.facebook.com/share/p/1A4ZJvSqE8/" target="_blank">
+            Visit My facebook
+        </a>
         
     </section>
   <section>
@@ -152,6 +160,28 @@
     <p>Welcome to the privacy policy of contentcreation.netlify.app. This policy will help you understand what data we collect, why we collect it, and what your rights are in relation to it.</p>
     <button>Accept</button>
   </section>
+  <div id="cookie-popup">
+    <span>This website uses cookies.</span>
+    <button id="accept-btn">Accept</button>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const popup = document.getElementById("cookie-popup");
+        const acceptBtn = document.getElementById("accept-btn");
+
+        if (!localStorage.getItem("cookiesAccepted")) {
+            popup.style.display = "flex";
+        }
+
+        acceptBtn.addEventListener("click", function() {
+            localStorage.setItem("cookiesAccepted", "true");
+            popup.style.display = "none";
+        });
+    });
+</script>
+
+
 
 
     
