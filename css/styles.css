@@ -56,6 +56,10 @@ section p, section ul, section ol {
     font-size: 1.2rem;
     line-height: 1.5;
 }
+.second-banner {
+    align-items: center;     
+}
+
 
 ol, ul {
     margin-left: 20px;
@@ -90,6 +94,7 @@ a:hover {
         font-weight: bold;
         border-radius: 8px;
         text-decoration: none;
+
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     
@@ -97,14 +102,5 @@ a:hover {
         background-color: #cc5500;
         transform: scale(1.05);
     }
-
-    .link-container {
-        text-align: center;
-    }
-    a {
-        text-decoration: none;
-        font-size: 20px;
-        color: #E4405F;
-        font-weight: bold;
-    }
-
+   
+    
