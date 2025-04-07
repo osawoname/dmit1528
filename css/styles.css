@@ -102,5 +102,24 @@ a:hover {
         background-color: #cc5500;
         transform: scale(1.05);
     }
+
+
+.explore {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.explore p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
+
+.google-ad {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.facebook {
+    margin-top: 20px;
+}
    
     
